@@ -2,7 +2,15 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "lime-green": "#243c5a",
+        "gray-aspargus": "#3A5548",
+        "myrtle-green": "#3A5548",
+        "gun-mental": "#3A5548",
+        emerald: "#51CC47",
+      },
+    },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

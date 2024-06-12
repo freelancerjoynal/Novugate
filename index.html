@@ -5,8 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Novugate</title>
     <link rel="stylesheet" href="./tailwindcss/input.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
-  <body>
+  <body class="bg-primary text-white">
+    <header class="py-3">
+      <div class="container mx-auto hidden md:block">
+        <div class="flex justify-between items-center">
+          <div class="logo">
+            <img width="65px" src="images/logo.png" alt="Novugate" />
+          </div>
+          <div>
+            <a class="mx-4 pb-2 text-2xl active" href="#home">Home</a>
+            <a class="mx-4 pb-2 text-2xl" href="#products">Products</a>
+            <a class="mx-4 pb-2 text-2xl" href="#calculator">Calculator</a>
+          </div>
+          <div class="cta">
+            <button
+              class="border-1 border-emerald px-4 py-2 rounded-2xl text-slate-400 hover:bg-emerald hover:text-white"
+            >
+              Start Security Today
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container md:hidden">
+        <div class="flex justify-between items-center px-3">
+          <img width="51px" src="images/logo.png" alt="Novugate" />
+          <div class="text-3xl">
+            <span id="menuOpen"><i class="fa fa-bars"></i></span>
+            <span id="menuClose" class="hidden"
+              ><i class="fa fa-times"></i
+            ></span>
+          </div>
+        </div>
+        <div
+          id="mobileMenu"
+          class="bg-white h-[100vh] fixed top-20 w-full left-[101%] transition-all"
+        ></div>
+      </div>
+    </header>
+    <section
+      id="home"
+      class="min-h-[86vh] bg-[url('/images/herobg.png')] bg-center bg-cover"
+    >
+      <div class="container mx-auto"></div>
+    </section>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="./js/main.js"></script>
   </body>
