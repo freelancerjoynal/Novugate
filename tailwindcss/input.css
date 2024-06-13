@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
 .border-1 {
   border-width: 1px;
 }
@@ -13,9 +18,11 @@
 }
 .heading {
   font-size: 58px;
+  font-weight: 700;
+  line-height: normal;
 }
-.btn-primary {
-  @apply bg-green-600;
+.btn-main {
+  @apply bg-emerald rounded-3xl px-5 py-3;
 }
 .active {
   @apply border-b-2 border-emerald;
