@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="bg-primary">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,7 +17,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-primary text-white">
+  <body class="text-white">
     <header class="py-3">
       <div class="container mx-auto hidden md:block">
         <div class="flex justify-between items-center">
@@ -173,22 +173,104 @@
           See Security Options Unique to <br />Your Home.
         </h2>
         <div
-          class="max-w-4xl bg-white text-blue-950 rounded-3xl mt-10 min-h-8 mx-auto"
+          class="max-w-6xl bg-white text-blue-950 rounded-full mt-10 min-h-8 mx-auto"
         >
-          <form class="px-8 py-1" action="javascript:void(0)">
+          <form action="javascript:void(0)">
             <div class="flex justify-between items-center">
-              <div class="form-item px-8 py-4 border-r-2">
+              <div
+                class="form-item relative px-16 py-4 bg-slate-200 rounded-full hover:cursor-pointer transition-all"
+              >
                 <p class="text-slate-400 text-lg">INTERESTED IN</p>
-                <span class="text-slate-950 text-xl">Choose One</span>
+                <span class="text-slate-950 text-xl" id="interest"
+                  >Choose One</span
+                >
+
+                <div
+                  class="interest-dropdown absolute bg-white px-7 py-6 rounded-lg top-28"
+                >
+                  <div class="py-2 text-md">
+                    <label class="radio-label">
+                      <input type="radio" checked="" name="option" value="1" />
+                      Home Security
+                    </label>
+                  </div>
+                  <div class="py-2 text-md">
+                    <label class="radio-label">
+                      <input type="radio" checked="" name="option" value="1" />
+                      Home Security
+                    </label>
+                  </div>
+                  <div class="py-2 text-md">
+                    <label class="radio-label">
+                      <input type="radio" checked="" name="option" value="1" />
+                      Home Security
+                    </label>
+                  </div>
+                </div>
               </div>
-              <div class="form-item px-8 py-4 border-r-2">
-                <p class="text-slate-400 text-lg">INTERESTED IN</p>
-                <span class="text-slate-950 text-xl">Choose One</span>
+              <div
+                class="form-item relative px-16 py-4 rounded-full hover:cursor-pointer transition-all"
+              >
+                <p class="text-slate-400 text-lg">RESIDENCE TYPE</p>
+                <span class="text-slate-950 text-xl" id="interest"
+                  >Choose One</span
+                >
+
+                <div
+                  class="residence-dropdown absolute bg-white px-7 py-6 rounded-lg top-28"
+                >
+                  <div class="py-2 text-md">
+                    <label class="radio-label">
+                      <input type="radio" checked="" name="option" value="1" />
+                      Home Security
+                    </label>
+                  </div>
+                  <div class="py-2 text-md">
+                    <label class="radio-label">
+                      <input type="radio" checked="" name="option" value="1" />
+                      Home Security
+                    </label>
+                  </div>
+                  <div class="py-2 text-md">
+                    <label class="radio-label">
+                      <input type="radio" checked="" name="option" value="1" />
+                      Home Security
+                    </label>
+                  </div>
+                </div>
               </div>
-              <div class="form-item px-8 py-4 border-r-2">
-                <p class="text-slate-400 text-lg">INTERESTED IN</p>
-                <span class="text-slate-950 text-xl">Choose One</span>
+              <div
+                class="form-item relative px-16 py-4 rounded-full hover:cursor-pointer transition-all"
+              >
+                <p class="text-slate-400 text-lg">DOORS AND WINDOWS</p>
+                <span class="text-slate-950 text-xl" id="door-window"
+                  >Choose One</span
+                >
+
+                <div
+                  class="door-windo-dropdown absolute bg-white px-7 py-6 rounded-lg top-28"
+                >
+                  <div class="py-2 text-md">
+                    <label class="radio-label">
+                      <input type="radio" checked="" name="option" value="1" />
+                      Home Security
+                    </label>
+                  </div>
+                  <div class="py-2 text-md">
+                    <label class="radio-label">
+                      <input type="radio" checked="" name="option" value="1" />
+                      Home Security
+                    </label>
+                  </div>
+                  <div class="py-2 text-md">
+                    <label class="radio-label">
+                      <input type="radio" checked="" name="option" value="1" />
+                      Home Security
+                    </label>
+                  </div>
+                </div>
               </div>
+
               <div class="form-item px-8 py-4">
                 <button
                   class="bg-jungle-green px-5 py-3 text-white rounded-3xl"
