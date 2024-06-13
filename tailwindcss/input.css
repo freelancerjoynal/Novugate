@@ -25,6 +25,9 @@ body {
   font-weight: 700;
   line-height: normal;
 }
+.hide-scrollbar-x {
+  overflow-x: "hidden";
+}
 .btn-main {
   @apply bg-emerald rounded-3xl px-5 py-3;
 }
