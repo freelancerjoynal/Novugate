@@ -73,6 +73,26 @@ body {
 .product-slider .owl-stage .owl-item.active:first-of-type {
   opacity: 1;
 }
+
+/*Comparison table codes*/
+#comparison-table .fa-check::before {
+  background-color: #91e18b;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+#comparison-table .fa-times::before {
+  background-color: #ababab;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
 /*=====================responisve-codes=========================*/
 @media (max-width: 768px) {
   .heading {
