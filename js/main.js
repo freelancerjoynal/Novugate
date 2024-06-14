@@ -78,4 +78,8 @@ $(document).ready(function () {
   let prevBtn = '<i class="fa fa-arrow-left" aria-hidden="true"></i>';
   $(".owl-next").html(nextBtn);
   $(".owl-prev").html(prevBtn);
+
+  //==================================
+  // MULTISTEP FORM
+  // ================================
 });
