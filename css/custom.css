@@ -98,4 +98,7 @@ body {
   .heading {
     font-size: 28px;
   }
+  #reviews .review-item {
+    min-width: 320px;
+  }
 }

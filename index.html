@@ -392,13 +392,13 @@
       </div>
     </section>
     <section id="one-app" class="py-36 bg-[url('/images/one-tap-section-bg-min.png')] bg-center bg-cover">
-      <div class="container mx-auto">
+      <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 md:grid-cols-2 items-center">
           <div>
             <img src="images/icontext.png" alt="logo">
-            <h2 class="heading my-6">One app to <br> protect it all.</h2>
-            <p class="text-xl text-slate-300 font-normal">An easy to use interface manages all your Arlo products and keeps you connected to your home and your family’s safety from wherever you are.</p>
-            <div class="text-slate-300 font-normal text-xl mt-10">
+            <h2 class="heading my-6">One app to <br class="hidden md:block"> protect it all.</h2>
+            <p class="text-sm md:text-xl text-slate-300 font-normal">An easy to use interface manages all your Arlo products and keeps you connected to your home and your family’s safety from wherever you are.</p>
+            <div class="text-slate-300 font-normal text-sm md:text-xl mt-10">
               <ul>
                 <li class="flex items-center gap-3 my-4"> <span class="w-8 h-8 text-slate-900 bg-emerald flex justify-center items-center rounded-full">1</span> Access 24/7 Emergency Response</li>
                 <li class="flex items-center gap-3 my-4"> <span class="w-8 h-8 text-slate-900 bg-emerald flex justify-center items-center rounded-full">2</span> Get alerts and quickly take action</li>
@@ -413,24 +413,102 @@
         </div>
       </div>
     </section>
-    <section id="free-quote" class="py-20 max-w-[1280px] mx-auto">
-      <div class="container mx-auto bg-gun-mental px-10 py-24 rounded-3xl">  
-        <h2 class="text-2xl md:text-3xl text-center">Get a free quote</h2>
-        <p class="text-xs text-center py-6 text-slate-300 max-w-5xl m-auto">Ready to turn your home into a smart home? Call now to get started or fill out the form.</p>
-        <form action="javascript:void(0)">
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <input required type="text" class="bg-transparent border-b-2 pb-3 border-slate-400 focus:outline-none"  placeholder="First and last name">
-            <input required type="tel" class="bg-transparent border-b-2 pb-3 border-slate-400 focus:outline-none"  placeholder="Phone">
-            <input required type="email" class="bg-transparent border-b-2 pb-3 border-slate-400 focus:outline-none"  placeholder="Email">
+    <section id="free-quote" class=" bg-[url('/images/quote-bg.png')] bg-cover">
+      <div class="py-20 max-w-[1280px] mx-auto">
+        <div class="container mx-auto bg-gun-mental px-10 py-24 rounded-3xl">  
+          <h2 class="text-2xl md:text-3xl text-center">Get a free quote</h2>
+          <p class="text-xs text-center py-6 text-slate-300 max-w-5xl m-auto">Ready to turn your home into a smart home? Call now to get started or fill out the form.</p>
+          <form action="javascript:void(0)">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <input required type="text" class="bg-transparent border-b-2 pb-3 border-slate-400 focus:outline-none"  placeholder="First and last name">
+              <input required type="tel" class="bg-transparent border-b-2 pb-3 border-slate-400 focus:outline-none"  placeholder="Phone">
+              <input required type="email" class="bg-transparent border-b-2 pb-3 border-slate-400 focus:outline-none"  placeholder="Email">
+            </div>
+            <div class="text-center max-w-5xl m-auto mt-12 text-slate-300">
+              <p class="text-xs">Clicking the button below constitutes your electronic signature and consent for Vivint and its parent company NRG to use
+                automated technology, including calls, texts and prerecorded messages, to contact you at the number provided about Vivint
+                and NRG offers. Consent not required to make a purchase. Up to 10msg/month. Reply 'STOP' to opt-out. See Terms of Service
+                and <a href="privacy-policy.html">Privacy Policy</a>.</p>
+                <button class="btn-main mt-7 text-white">Start Your Quote <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+            </div>        
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="py-14">
+      <div class="container mx-auto">
+        <div class="grid grid-cols-4 gap-[340px] md:gap-8 overflow-x-scroll md:overflow-hidden">
+          <div class="review-item bg-gun-mental py-8 px-6 rounded-3xl">
+            <div class="flex gap-4 text-3xl">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <div class="py-4 text-slate-400">
+              <div>SG</div>
+              <div>Apr 24, 2024</div>
+            </div>
+            <div>
+              <h4 class="text-xl text-slate-300 font-normal">Equipment worked as expected and any…</h4>
+              <p class="py-5 font-normal text-slate-300">Equipment worked as expected and any updates were easy to implement. Customer support is great…</p>
+            </div>
+            <a href="javascript:void(0)" class="underline pb-1">Read More</a>
           </div>
-          <div class="text-center max-w-5xl m-auto mt-12 text-slate-300">
-            <p class="text-xs">Clicking the button below constitutes your electronic signature and consent for Vivint and its parent company NRG to use
-              automated technology, including calls, texts and prerecorded messages, to contact you at the number provided about Vivint
-              and NRG offers. Consent not required to make a purchase. Up to 10msg/month. Reply 'STOP' to opt-out. See Terms of Service
-              and <a href="privacy-policy.html">Privacy Policy</a>.</p>
-              <button class="btn-main mt-7">Start Your Quote <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
-          </div>        
-        </form>
+          <div class="review-item bg-gun-mental py-8 px-6 rounded-3xl">
+            <div class="flex gap-4 text-3xl">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <div class="py-4 text-slate-400">
+              <div>SG</div>
+              <div>Apr 24, 2024</div>
+            </div>
+            <div>
+              <h4 class="text-xl text-slate-300 font-normal">Equipment worked as expected and any…</h4>
+              <p class="py-5 font-normal text-slate-300">Equipment worked as expected and any updates were easy to implement. Customer support is great…</p>
+            </div>
+            <a href="javascript:void(0)" class="underline pb-1">Read More</a>
+          </div>
+          <div class="review-item bg-gun-mental py-8 px-6 rounded-3xl">
+            <div class="flex gap-4 text-3xl">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <div class="py-4 text-slate-400">
+              <div>SG</div>
+              <div>Apr 24, 2024</div>
+            </div>
+            <div>
+              <h4 class="text-xl text-slate-300 font-normal">Equipment worked as expected and any…</h4>
+              <p class="py-5 font-normal text-slate-300">Equipment worked as expected and any updates were easy to implement. Customer support is great…</p>
+            </div>
+            <a href="javascript:void(0)" class="underline pb-1">Read More</a>
+          </div>
+          <div class="review-item bg-gun-mental py-8 px-6 rounded-3xl">
+            <div class="flex gap-4 text-3xl">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <div class="py-4 text-slate-400">
+              <div>SG</div>
+              <div>Apr 24, 2024</div>
+            </div>
+            <div>
+              <h4 class="text-xl text-slate-300 font-normal">Equipment worked as expected and any…</h4>
+              <p class="py-5 font-normal text-slate-300">Equipment worked as expected and any updates were easy to implement. Customer support is great…</p>
+            </div>
+            <a href="javascript:void(0)" class="underline pb-1">Read More</a>
+          </div>
+          
+        </div>
       </div>
     </section>
 
